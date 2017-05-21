@@ -9,7 +9,7 @@ class LevenshteinTest(unittest.TestCase):
     def test_index_increment(self):
         first = Levenshtein_search.populate_wordset(-1, self.excerpt1)
         second = Levenshtein_search.populate_wordset(-1, self.excerpt2)
-        print(first, second)
+        print((first, second))
         
         assert first != second
 		
